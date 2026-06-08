@@ -1,4 +1,4 @@
-module ABAQUS
+module AbaqusBuilder
 
 include("Keyword.jl")
 using .Keyword
@@ -12,4 +12,4 @@ using .IO
 include("Scripts.jl")
 using .Scripts
 
-end # module ABAQUS
+end # module AbaqusBuilder
